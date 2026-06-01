@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between py-2 px-4 md:px-8">
         {/* Logo and Name */}
         <div className="flex items-center gap-3 cursor-pointer" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); navigate('/'); }}>
-          <img src="/assets/kashif.jpg" alt="Kashif Ahmad" className="w-12 h-12 rounded-2xl border-2 border-white shadow-lg object-cover" />
+          <img src="/assets/kashif 2.jpeg" alt="Kashif Ahmad" className="w-12 h-12 rounded-2xl border-2 border-white shadow-lg object-cover" />
           <span className="text-2xl font-bold tracking-wide text-[#1a237e] bg-white bg-opacity-80 px-3 py-1 rounded-xl shadow">Portfilo</span>
         </div>
         {/* Hamburger Button for Mobile */}

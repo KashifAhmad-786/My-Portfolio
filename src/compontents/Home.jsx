@@ -3,7 +3,7 @@ import React, { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 // Animated subtitle loop for roles
 const roles = [
-  'React Developer',
+  'Mern stack Developer',
   'Web Designer',
   'Ai Automation',
 ];
@@ -52,7 +52,7 @@ const Home = () => {
       {/* Hero Section */}
       <div className="z-10 pt-24 pb-12 w-full flex flex-col items-center">
         <img
-          src="/assets/kashif.jpg"
+          src="/assets/kashif 2.jpeg"
           alt="Kashif"
           className="w-32 h-32 rounded-full border-4  shadow-lg mb-6 object-cover animate-fade-in-up"
         />
@@ -79,7 +79,7 @@ const Home = () => {
         }
       `}</style>
         <p className="text-lg md:text-xl text-gray-600 mb-8 animate-fade-in-up delay-200 max-w-xl mx-auto">
-          I'm a React developer, web designer, and AI automation enthusiast specializing in building fast, responsive, and modern web applications. My portfolio showcases clean code, reusable components, and real-world projects crafted with React, Tailwind CSS, and intelligent automation solutions.
+          I'm a Mern Stack developer, web designer, and AI automation enthusiast specializing in building fast, responsive, and modern web applications. My portfolio showcases clean code, reusable components, and real-world projects crafted with React, Tailwind CSS, and intelligent automation solutions.
         </p>
         <div className="flex gap-4 justify-center mb-8 animate-fade-in-up delay-300">
           <Link to="/" className="block px-4 py-2 rounded-md font-semibold transition-all duration-200 bg-gradient-to-r from-blue-500 to-blue-700 text-white hover:from-blue-600 hover:to-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-300 active:scale-95 shadow-md md:shadow-none">Get Started</Link>
@@ -318,7 +318,7 @@ const Home = () => {
             {/* Profile Image Center */}
             <div className="flex-shrink-0 flex flex-col items-center">
               <div className="w-40 h-40 rounded-full border-4 border-blue-200 shadow-lg overflow-hidden flex items-center justify-center bg-gray-100">
-                <img src="/assets/kashif.jpg" alt="Kashif Ahmad" className="w-full h-full object-cover" />
+                <img src="/assets/kashif 2.jpeg" alt="Kashif Ahmad" className="w-full h-full object-cover" />
               </div>
             </div>
             {/* Skills Right */}
